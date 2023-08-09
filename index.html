@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mon CV</title>
+    <style>
+
+
+
+* {
+    font-family: Georgia, serif;
+}
+
+
+
+/*début du haut de page*/
+        header {
+            background-image: linear-gradient(to bottom, rgba(130, 147, 194, 0.5), rgba(50, 47, 56, 0.8)), url("pa.jpg");
+            background-size: 1500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff; 
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            margin-right: 1000px;
+        }
+
+        header p {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 150px;
+            margin-right: 1000px;
+        }
+
+        .profile-picture {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin: 5px auto;
+            display: block;
+            object-fit: cover;
+            border: 4px solid #fff; 
+            margin-left: 385px;
+        }
+/*fin du haut de page*/
+
+
+
+/*début du corps de page*/
+        body {
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #252323;
+        }
+
+        body a {
+            color: #ffffff;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+            padding: 8px 16px;
+            font-size: 20px;
+            border-radius: 15px;
+            background-color: #3e4d5b;
+            transition: background-color 0.3s ease;
+        }
+
+        body a:hover {
+            background-color: #8ca5bc;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .category1 {
+            font-family: Georgia, serif;
+            font-size: 20px;
+            color: #ffffff;
+        }
+
+        .category2 {
+            font-family: Georgia, serif;
+            font-size: 14px;
+            font-weight: normal;
+            color: #ffffff;
+        }
+
+        section {
+            margin-bottom: 2px;
+        }
+/*fin du corps de page*/
+
+/*Si vous êtes arrivésjusqu'ici, merci de m'avoir lu.*/      
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img class="profile-picture" src="Photo_identité.JPEG.jpeg">
+        <h1>Dieu Damien</h1>
+        <p>Développeur Junior</p>
+    </header>
+
+    <main>
+
+        <a href="#about">Accueil</a>
+        <a href="experience.html">Expériences professionnelles</a>
+        <a href="education.html">Formations académiques</a>
+        <a href="skills.html">Compétences</a>
+        <a href="hobbies.html">Loisirs</a>
+
+        <section>
+            <video controls width="640" height="360">
+                <source src="videocv.mp4" type="video/mp4">
+                <p>Votre navigateur ne prend pas en charge la lecture vidéo.</p>
+            </video>
+        </section>
+
+        <section>
+            <h2 class="category1">Contact</h2>
+        </section>
+
+        <section>
+            <p class="category2"  href="mailto:damiendieu@hotmail.com">damiendieu@hotmail.com</p>
+        </section>
+
+        <section>
+            <p class="category2">0475587758</p>
+        </section>
+    
+    </main>
+    
+</body>
+</html>

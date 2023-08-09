@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Loisirs</title>
+
+    <style>
+
+
+
+* {
+    font-family: Georgia, serif;
+}
+
+
+
+/*début du haut de page*/
+        header {
+            background-image: linear-gradient(to bottom, rgba(68, 78, 104, 0.5), rgba(27, 26, 27, 0.8)), url("pa4.jpg");
+            background-size: 1500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff; 
+            text-align: center;
+            padding: 60px;          
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+       
+        header a {
+            color: #000000;
+            text-decoration: none;
+            margin: 5px;
+            padding: 8px 16px;
+            border-radius: 5px;
+            background-color: #ffffff;
+            transition: background-color 0.3s ease;
+        }
+
+        header a:hover {
+            background-color: #8ca5bc;
+        }
+/*fin du haut de page*/
+
+
+
+/*début du corps de page*/
+        body {
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #252323;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 120px;
+            background-color: #d9dde0;
+            box-shadow: 0 2px 4px rgb(233, 233, 233);
+            line-height: 2;
+        }
+
+        h2 {
+            color: #4b5e70;
+            border-bottom: 2px solid #4b5e70;
+            padding-bottom: 5px;
+        }
+
+        p {
+            line-height: 20px;
+            margin:16px;
+        }
+        
+        .category1 {
+            font-family: Georgia, serif;
+            font-size: 16px;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        .category2 {
+            font-family: Georgia, serif;
+            font-size: 14px;
+            color: #000000;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        .passions-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .passions-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            vertical-align: top;
+        }
+
+        .passion-name {
+            font-weight: bold;
+            color: #4b5e70;
+        }
+/*fin du corps de page*/
+
+
+
+        #le-div {
+
+line-height: 2;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div id="le-div"><h1>Loisirs</h1></div>
+	    <a href="index.html">Accueil</a>
+        <a href="experience.html">Expériences professionnelles</a>
+        <a href="education.html">Formations académiques</a>
+        <a href="skills.html">Compétences</a>
+        <a href="hobbies.html">Loisirs</a>
+    </header>
+
+    <main>
+
+        <section>
+            <table class="passions-table">
+                <tr>
+                    <td class="passion-name">Sport</td>
+                </tr>
+
+                <tr>
+                    <td class="passion-name">Diététique</td>
+                </tr>
+
+                <tr>
+                    <td class="passion-name">Nouvelles technologies</td>
+                </tr>
+                
+                <tr>
+                    <td class="passion-name">Informatique</td>
+                </tr>
+                <tr>
+                    <td class="passion-name">Histoire</td>
+                </tr>
+                <tr>
+                    <td class="passion-name">Randonnées</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+</body>
+</html>
